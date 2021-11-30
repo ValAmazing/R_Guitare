@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--1ERE PARTIE-->
+<!--NAVBAR-->
+    <nav>
+        <div class="nav-container">
+            <img class="logo" src="./elements/Logo.png">
+            <label for="toggle" class="burger-style">☰</label>
+            <input type="checkbox" id="toggle">
+            <div class="a-nav">
+                <a href="#guitar">L'esprit R'Guitar</a>
+                <a href="#grattes">Nos grattes</a>
+                <a class="bout" href="#boutique"><i class="fa fa-shopping-cart" style="font-size:24px"></i> Boutique</a>
+            </div>
+        </div>
+    </nav>
+<!--BACKGROUND-->    
+    <header>
+        <div class="header-container">
+            <div class="vide"></div>
+            <div class="h1-header">
+                <h1>Votre meilleur riff mérite</h1>
+                <h1 class="b-header">la meilleure guitare</h1>
+            </div>
+        </div>
+    </header>
+<!--2nd PARTIE-->
+    <div class="titre-2">
+        <h1 id="guitar">L'ESPRIT R'GUITAR</h1>
+    </div>
+    <div class="mid-container">
+        <div class="child-mid">
+            <h2 class="ho-droite1">SEULE COMPTE LA MUSIQUE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Dui sapien eget mi proin sed libero enim sed faucibus. Amet venenatis urna cursus eget.</p>
+            <h2 class="ho-gauche">DES BEATLES A NIRVANA</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Dui sapien eget mi proin sed libero enim sed faucibus. Amet venenatis urna cursus eget.</p>
+            <h2 class="ho-droite2">LE SON, NOTRE METIER</h2>
+            <p class="no-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
+        </div>
+        <div class="child-mid media320">
+            <div class="img-container">
+                <img class="img-top-left" src="./elements/image1.jpg">
+                <img class="img-top-right" src="./elements/image3.jpg">
+            </div>
+            <img class="img-bot" src="./elements/image2.jpg">
+        </div>
+    </div>
+<!--3e PARTIE-->
+    <div class="titre-3">
+        <h1 id="grattes">NOS GRATTES</h1>
+    </div>
+    <div class="top-guitare">
+        <h2>LES GUITARES EN STOCK</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="guitare-container">
+        <div class="guitare-child">
+            <img class="g-red" src="./elements/guitar1.jpg">
+            <h2 class="h-red">GIBSON CASINO</h2>
+            <p>2000,00€</p>
+            <button class="g-button">ACHETER</button>
+        </div>
+        <div class="guitare-child">
+            <img class="g-blue" src="./elements/guitar2.jpg">
+            <h2>LES PAUL PLUS TRANS BLUE</h2>
+            <div class="p-flex">
+                <p class="barree">500,00€</p>
+                <p>400,00€</p>
+            </div>
+            <button class="g-button">ACHETER</button>
+        </div>
+        <div class="guitare-child">
+            <img src="./elements/guitar3.jpg">
+            <h2>FENDER STRATOCASTER</h2>
+            <p>3000,00€</p>
+            <button class="g-button">ACHETER</button>
+        </div>
+        <div class="guitare-child">
+            <img src="./elements/guitar4.jpg">
+            <h2>BC RICH DOUBLE NECK</h2>
+            <p>2500,00€</p>
+            <button class="g-button">ACHETER</button>
+        </div>
+    </div>
+<!--FORMULAIRE-->
+<div class="titre-4">
+    <h1 id="boutique">CONTACTE NOUS</h1>
+</div>
+    <div class="h2-formdiv">
+        <h2 class="h2-form">LAISSE NOUS UN MOT</h2>
+    </div>
+    <form>
+        <label for="name">NOM ET PRENOM</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Paul McCartney" required>
+        <div class="form-flex">
+            <div class="form-flex-child">
+                <label for="mail">EMAIL</label>
+                <br>
+                <input type="email" id="mail" name="mail" placeholder="paul@mccartney.co.uk" required>
+            </div>
+            <div class="form-flex-child">
+                <label for="tel">T&#xC9;L&#xC9;PHONE</label>
+                <br>
+                <input type="tel" id="tel" name="telephone" placeholder="0102030405" required>
+            </div>
+        </div>
+            <label for="message">MESSAGE</label>
+            <br>
+            <textarea id="message" placeholder="When you were young and your heart was an open book&#10;You used to say live and let live&#10;(you know you did, you know you did you know you did)&#10;But if this ever changing world in which we're living&#10;Makes you give in and cry"></textarea>
+            <br>
+            <div class="b-div">
+                <button class="b-form">VALIDER</button>
+            </div>
+        
+    </form>
+</body>
+</html>
